@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Artigianhouse – Manufatti in legno per la bioedilizia di nuova generazione</title>
+
+    <!-- Meta description (fondamentale per SEO) -->
+    <meta name="description" content="Artigianhouse progetta e realizza manufatti in legno per la bioedilizia di ultima generazione. Soluzioni sostenibili, artigianali e tecnologicamente avanzate per abitare sano e consapevole.">
+
+    <!-- Meta keywords (non prioritarie, ma utili) -->
+    <meta name="keywords" content="Artigianhouse, bioedilizia, manufatti in legno, case in legno, edilizia sostenibile, architettura naturale, costruzioni in legno, artigianato evoluto, abitare sostenibile">
+
+    <!-- Open Graph (social, WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:title" content="Artigianhouse – Bioedilizia e manifattura in legno">
+    <meta property="og:description" content="Manufatti in legno per un’edilizia sostenibile, efficiente e orientata al benessere abitativo. Tradizione artigiana e innovazione costruttiva.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.artigianhouse.it">
+    <meta property="og:image" content="https://www.artigianhouse.it/assets/img/og-artigianhouse.png">
+
+    <!-- Icona -->
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-papTgktAgF6DHQps4jzFqXTmFChFbRpiEuk+xO+Uuk6A3pFP6Y65IG9Bp6PA2XvwFyKxJQfaJTOkB3Vr+VsyYkg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+<div id="cookie-banner" class="hidden">
+    <p>
+        Questo sito utilizza Google Maps che potrebbe installare cookie di terze parti.
+        <a href="/privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <img src="logo.png" alt="Alma Favignana logo" class="logo">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Apri menu">&#9776;</div>
+    <nav class="nav-links" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#services">Il team</a>
+        <a href="#gallery">Galleria</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Artigianhouse</h1>
+        <p>
+            Manufatti in legno per la bioedilizia di ultima generazione.
+            Progettiamo e realizziamo soluzioni sostenibili dove
+            artigianato, tecnologia e natura si incontrano.
+        </p>
+        <a href="#about" class="btn">Scopri Artigianhouse</a>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path d="M0,224 C360,300 1080,160 1440,240 L1440,320 L0,320 Z"></path>
+        </svg>
+    </div>
+</section>
+
+
+
+<!-- About -->
+<section id="about" data-aos="fade-up">
+    <h2>Chi siamo</h2>
+
+    <div class="about-intro">
+        <p>
+            <strong>Artigianhouse</strong> è un’azienda specializzata nella progettazione e realizzazione
+            di manufatti in legno per la bioedilizia di ultima generazione, dove
+            tradizione artigiana e innovazione tecnologica si fondono per dare forma
+            a spazi abitativi sani, efficienti e sostenibili.
+        </p>
+
+        <p>
+            Crediamo in un modo di costruire che rispetti l’ambiente, valorizzi le risorse
+            naturali e migliori la qualità della vita delle persone. Il legno, materiale vivo
+            e rinnovabile, è al centro di ogni nostro progetto.
+        </p>
+
+        <p>
+            Ogni manufatto nasce da un’attenta fase di progettazione, dall’utilizzo di
+            materiali certificati e da processi produttivi evoluti, in grado di garantire
+            elevate prestazioni energetiche, durabilità e comfort abitativo.
+        </p>
+
+        <p>
+            Lavoriamo eliminando soluzioni standardizzate, privilegiando un approccio
+            sartoriale: ogni intervento è studiato sulle esigenze specifiche del cliente,
+            del contesto architettonico e dell’ambiente in cui si inserisce.
+        </p>
+
+        <p>
+            Collaboriamo con architetti, progettisti e imprese per sviluppare soluzioni
+            costruttive in linea con i principi della bioedilizia, dell’efficienza energetica
+            e dell’architettura sostenibile contemporanea.
+        </p>
+
+        <p>
+            La nostra visione è quella di un’abitazione che non sia solo uno spazio da
+            vivere, ma un ecosistema equilibrato, capace di offrire benessere, comfort
+            e rispetto per le generazioni future.
+        </p>
+    </div>
+
+    <!-- Sezione valori con icone sopra -->
+    <div class="about-benefits" data-aos="fade-up">
+
+        <div class="benefit-item">
+            <!-- Icona SVG originale -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#006c8c" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1m-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5M5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1m0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1"/>
+            </svg>
+            <h3>Progettazione consapevole</h3>
+            <p>
+                Ogni manufatto nasce da uno studio accurato, basato su dati tecnici,
+                materiali certificati e soluzioni progettuali orientate alla sostenibilità
+                e all’efficienza energetica.
+            </p>
+        </div>
+
+        <div class="benefit-item">
+            <!-- Icona SVG originale -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#CC9F37FF" class="bi bi-clipboard2-check-fill" viewBox="0 0 16 16">
+                <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5"/>
+                <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585q.084.236.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5q.001-.264.085-.5m6.769 6.854-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+            </svg>
+            <h3>Qualità e affidabilità</h3>
+            <p>
+                Seguiamo ogni fase del processo produttivo con attenzione e controllo,
+                garantendo standard elevati, precisione esecutiva e durabilità nel tempo.
+            </p>
+        </div>
+
+        <div class="benefit-item">
+            <!-- Icona SVG originale -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#AC8484FF" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+            </svg>
+            <h3>Ascolto e collaborazione</h3>
+            <p>
+                Lavoriamo in dialogo costante con clienti e professionisti per sviluppare
+                soluzioni su misura, in armonia con il contesto e le reali esigenze abitative.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="services" class="lux-services">
+    <div class="lux-container">
+
+        <h2 class="lux-title" data-aos="fade-up">I nostri servizi</h2>
+        <p class="lux-subtitle" data-aos="fade-up">
+            Soluzioni complete in legno per la bioedilizia di ultima generazione,
+            dalla progettazione alla realizzazione.
+        </p>
+
+        <div class="lux-grid">
+
+            <!-- Progettazione -->
+            <div class="lux-card" data-aos="zoom-in">
+                <div class="lux-img">
+                    <img src="https://www.casedilegnolucan.it/wp-content/uploads/2020/11/casa-in-bioedilizia.jpg" alt="Progettazione in bioedilizia">
+                </div>
+                <div class="lux-content">
+                    <h3>Progettazione integrata</h3>
+                    <p>
+                        Affianchiamo clienti, architetti e progettisti nello sviluppo di soluzioni
+                        costruttive in legno, studiando ogni dettaglio tecnico, estetico ed energetico
+                        per ottenere edifici efficienti e sostenibili.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Manufatti in legno -->
+            <div class="lux-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="lux-img">
+                    <img src="https://www.tecnoimmobiliare.eu/wp-content/uploads/2022/04/BIOEDILIZIA-2.jpg" alt="Manufatti in legno su misura">
+                </div>
+                <div class="lux-content">
+                    <h3>Manufatti in legno su misura</h3>
+                    <p>
+                        Realizziamo strutture e componenti in legno personalizzati,
+                        progettati per integrarsi perfettamente nel contesto architettonico
+                        e rispondere a specifiche esigenze funzionali.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bioedilizia -->
+            <div class="lux-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="lux-img">
+                    <img src="https://www.rainoldilegnami.com/app/uploads/2024/02/casa-legno-600x381-1.jpg" alt="Costruzioni in bioedilizia">
+                </div>
+                <div class="lux-content">
+                    <h3>Bioedilizia e costruzioni sostenibili</h3>
+                    <p>
+                        Applichiamo i principi della bioedilizia per realizzare edifici
+                        ad alte prestazioni energetiche, utilizzando materiali naturali,
+                        traspiranti e certificati.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Prefabbricazione -->
+            <div class="lux-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="lux-img">
+                    <img src="https://www.amorelegnami.it/images/TELAIO_LAMELLARE/TELAIOamorelegnami1.jpg" alt="Prefabbricazione in legno">
+                </div>
+                <div class="lux-content">
+                    <h3>Prefabbricazione in legno</h3>
+                    <p>
+                        Produciamo elementi prefabbricati in legno con processi evoluti,
+                        garantendo precisione, tempi certi di realizzazione
+                        e qualità costruttiva costante.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Riqualificazione -->
+            <div class="lux-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="lux-img">
+                    <img src="https://www.zaniniereginatoarchitettura.it/site/wp-content/uploads/2023/04/DJI_0759-scaled-e1682508036445-1024x683.jpg" alt="Riqualificazione energetica">
+                </div>
+                <div class="lux-content">
+                    <h3>Riqualificazione e ampliamenti</h3>
+                    <p>
+                        Interveniamo su edifici esistenti con soluzioni in legno
+                        per migliorare l’efficienza energetica, il comfort abitativo
+                        e il valore dell’immobile.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Consulenza -->
+            <div class="lux-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="lux-img">
+                    <img src="https://www.casebioedilizia.it/img/assistenza-case-prefabbricate-in-legno-bioedilizia.jpg" alt="Consulenza tecnica bioedilizia">
+                </div>
+                <div class="lux-content">
+                    <h3>Consulenza tecnica</h3>
+                    <p>
+                        Offriamo consulenza specializzata su materiali, sistemi costruttivi
+                        e soluzioni in legno, supportando le scelte progettuali
+                        fin dalle fasi iniziali.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Counter animati -->
+<section id="counters" class="counter-section" data-aos="fade-up">
+    <h2>I nostri numeri</h2>
+
+    <div class="counter-container">
+
+        <div class="counter-box">
+            <span class="counter" data-target="20">0</span>
+            <p>Anni di esperienza nel legno</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="150">0</span>
+            <p>Manufatti e progetti realizzati</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="100">0</span>
+            <p>Clienti e partner soddisfatti</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="10">0</span>
+            <p>Professionisti specializzati</p>
+        </div>
+
+    </div>
+</section>
+<!-- Reviews -->
+<section id="reviews" class="reviews-section" data-aos="fade-up">
+    <h2>Cosa dicono di noi</h2>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <p class="review-text">
+                "Artigianhouse ha trasformato la nostra idea di casa in un progetto concreto e sostenibile.
+                Grande attenzione ai dettagli, materiali di qualità e un approccio davvero professionale."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Luca R.</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">
+                "Collaborare con Artigianhouse è stato semplice e stimolante.
+                Competenza tecnica, precisione esecutiva e una profonda conoscenza del legno
+                e delle sue potenzialità in bioedilizia."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Studio Architettura M.</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">
+                "Un team affidabile che lavora con passione e serietà.
+                I manufatti realizzati sono solidi, curati e pensati per durare nel tempo,
+                con un comfort abitativo superiore."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Giulia F.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Galleria -->
+<section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Gallery • Artigianhouse</h2>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="https://www.costantinilegno.it/wp-content/uploads/2015/10/Parisi_04-Copia.jpg" alt="Cantiere in bioedilizia">
+                <p class="caption">Cantieri in bioedilizia con strutture in legno</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://www.rainoldilegnami.com/app/uploads/2024/02/slide11-1.jpg" alt="Manufatti in legno su misura">
+                <p class="caption">Manufatti in legno realizzati su misura</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://lh4.googleusercontent.com/proxy/J-iWWubO9QfrS71bNeImRWMQ6xcXTsOSsOfFrAKuLBARvyPjJ0X1FLNdJhywccELE77QWMG1NgUhrjQSSQDEGacwQvv0m2ON6qmXQgZKbhIl7bCJGcu2vP0FrSm5Dwn3Ay8qkZw5_MpJxCBLG53sYml8ksn8fmaR30DAwsFRWeZf" alt="Dettagli costruttivi in legno">
+                <p class="caption">Dettagli costruttivi e finiture artigianali</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://www.lamambiente.it/wp-content/uploads/2023/03/Podere_Belvedere_CAROSELLO_06.jpg" alt="Prefabbricazione in legno">
+                <p class="caption">Prefabbricazione e lavorazioni di precisione</p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://www.infobuildenergia.it/Allegati/16070.jpg" alt="Edificio in legno completato">
+                <p class="caption">Progetti completati orientati al benessere abitativo</p>
+            </div>
+
+        </div>
+
+        <!-- Pagination + Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- Contatti / Preventivi -->
+<section id="contact" class="cta" data-aos="fade-up">
+    <h2>Contattaci</h2>
+    <p class="cta-intro">
+        Vuoi ricevere informazioni sui nostri servizi, richiedere un preventivo o discutere
+        un progetto su misura? Compila il form qui sotto: ti risponderemo al più presto.
+    </p>
+
+    <div class="contact-container">
+
+        <!-- Form -->
+        <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
+            <input type="text" name="name" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <input type="tel" name="phone" placeholder="Numero di telefono" required>
+
+            <select name="service" required>
+                <option value="" disabled selected>Seleziona il servizio di interesse</option>
+                <option value="progettazione">Progettazione in legno</option>
+                <option value="manufatti">Manufatti su misura</option>
+                <option value="bioedilizia">Costruzioni in bioedilizia</option>
+                <option value="prefabbricazione">Prefabbricazione e moduli</option>
+                <option value="riqualificazione">Riqualificazione / Ampliamenti</option>
+                <option value="consulenza">Consulenza tecnica</option>
+                <option value="altro">Altro / Informazioni</option>
+            </select>
+
+            <textarea name="message" rows="4" placeholder="Scrivi qui la tua richiesta o messaggio" required></textarea>
+
+            <label class="privacy-consent">
+                <input type="checkbox" name="privacy" required>
+                Acconsento al trattamento dei miei dati personali ai sensi della
+                <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.
+            </label>
+
+            <button type="submit">Invia richiesta</button>
+        </form>
+
+        <!-- Map -->
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.608091737515!2d13.375419211723388!3d38.10278517178728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e599a436a415%3A0xf236b376e2c0dc6b!2sVia%20Brancaccio%2C%2035%2C%2090124%20Palermo%20PA!5e0!3m2!1sit!2sit!4v1766046000785!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+</section>
+
+<section id="social" class="social-section" data-aos="fade-up">
+    <h2>Seguici</h2>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/artigianhouse/" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABOFBMVEVHcExxF/13F/1zFf2AFv2MCu+iBOmyAuLEAd7SANraBMzwHpedI+XeANfmANHmAr+PF/6fD/vxAL7qArV7GP21FvnRVurnZ+P2Z9roQeDzGtXzB8v7AqvWiPn+7fn////7ftv/A7z0BKH3v/H+3fT+ruj+AJr/9/r/RcD/bMDKFff/Bo3iG+r8GrX/AIH+H5r/yeP+BHj/t9n/V5r+Am7+H37+BGT/ssX/Imz/RXv/ucz+e4z+JFT/XI3/MGL+LUf/u7f/yc7/Alr+OUf+MSz+QzT+R0T+iHD+SRj+VzH+WQX+AkL+c2L/0sT+aCX+cBL/7+j+aQL+eRv/oUX/fwL+iBD/wXz+jgD/3rr/1rn+dgz+nAP9FpT+lw7+qgH+tQD+vQD/w1f9kwf/xAD9PFn9ogj/ywD9uAfgLZLBAAAAaHRSTlMAW9H+////////xEsC///N////zFz/////////////////uP////7///////////7////////////////////////////////////////////////////////F/7VQ///+/87/vsj/uqL0GQwAAAHcSURBVHgBRMlFehwxEEDhV1VS04yZ7U04m+AmcBjfLLscJ4xLHyA0YGqSlJ7P9MT6BRC52EEQuDjlFITx2eWvXJsDQWYIKgJj4VQW5gBJAg75K5vTgZDTFUEu/kUEzqGaiC6DMBbhpqQyoyKTNYD1Hp+Ui6J0ZH1HhXNA0RfzyRIZl5WprroK3BZwwvx0aUGdB87HCIN5VBUVP9i468ZLxWLv+pg6vJmDaSiSW2eyIRNg84/HxfVJmTD3DxFWGmWjrosRpxMNGr3iIqYbG7IGK5lKvZE3jVuTynsDzHRoD3xpxaTQvIKumGBWgCouM9bPKEisJg0VTV4X0aBqQEuXQ2kGlmVmZCtgCoxBJfeAz0b8NQbWI7wOAKCZMgbn9E6tItG1HFTKRQ4jgSYpiiPu6BFJW1fW9J7oDFWWgpf0MH09YnB6yIEYnIJhLhqkpw3aC4OuUJ4QlDzX55/Um5m4Ue6dmXr59LwkBM0xy/ieVNV7zSSTZMU3fs8UNBomr+v3jQx5X1XmB7tdgnNu1JqDl+0nbnp+HpLp+WM5bB0mIMJFc/ouSgjd+U99O1qYONOhFEMonPcZCZ6eGp9eRcSwhWkSRCIxKnfeIMBh1WRcFOhTaENo/096OTA7AACDzKODDThakgAAAABJRU5ErkJggg==" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/artigianhouse/?ref=_xav_ig_profile_page_web#" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/250px-Facebook_logo_%28square%29.png" alt="Facebook">
+        </a>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-section" data-aos="fade-up">
+
+    <h2 class="faq-title">Domande Frequenti</h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Come posso richiedere un preventivo per un progetto in legno?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Puoi compilare il form nella sezione contatti indicando il tipo di progetto e le tue esigenze. Ti risponderemo con un preventivo dettagliato e personalizzato.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Offrite consulenze tecniche per costruzioni in bioedilizia?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Sì, il nostro team può fornirti consulenze su materiali, progettazione e soluzioni sostenibili per edifici in legno e bioedilizia.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Quali tipi di manufatti in legno realizzate?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Realizziamo manufatti su misura come case, moduli prefabbricati, arredi e strutture esterne, sempre con materiali certificati e attenzione alla sostenibilità.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Quanto tempo richiede la realizzazione di un progetto?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Il tempo dipende dalla complessità del progetto. Dopo un primo sopralluogo e un’analisi delle tue esigenze, ti forniremo una stima precisa dei tempi di realizzazione.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Posso visitare i vostri cantieri o showroom?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Sì, è possibile organizzare visite guidate ai cantieri o agli spazi espositivi, previo appuntamento, per vedere dal vivo la qualità dei nostri manufatti.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Come posso richiedere assistenza o supporto post-vendita?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Contattaci tramite il form o via email/telefono: il nostro team seguirà ogni richiesta di assistenza o manutenzione dei manufatti realizzati.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<a href="https://wa.me/393899970349" class="whatsapp" target="_blank" rel="noopener noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+<!-- Footer -->
+<footer data-aos="fade-up">
+    <p>&copy; 2025 ArtigianHouse – Tutti i diritti riservati</p>
+    <p>
+        <a href="tel:+393202467716"> +39 389 997 0349</a> |
+        <a href=""> houseartigian@gmail.com</a>
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
